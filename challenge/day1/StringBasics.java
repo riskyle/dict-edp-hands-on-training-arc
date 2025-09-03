@@ -4,15 +4,13 @@ import java.util.Scanner;
 
 public class StringBasics {
 	
-	/*
-	 *   Day 1 – Strings Basics
-	 *  
-	 *  Challenge: Write functions to reverse a string, count vowels/consonants, and check for palindromes.
-		Objectives: String manipulation, functions, input/output.
-		Success Criteria: Correct outputs with varied test cases.
-		Time: 1.5 hrs.
-	 * 
+	/* Day 1 – Strings Basics 
+	 * Challenge: Write functions to reverse a string, count vowels/consonants, and check for palindromes.
+	 * Objectives: String manipulation, functions, input/output.
+	 * Success Criteria: Correct outputs with varied test cases.
+	 * Time: 1.5 hrs.
 	 */
+	
 	public static String reversedString(String word) {
 		String reversed = "";
 		
