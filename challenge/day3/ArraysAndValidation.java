@@ -89,6 +89,7 @@ public class ArraysAndValidation {
 		}
 	}
 	
+	// mode instance for Most Often Data Entered
 	public static ArrayList<Integer> mode(int[] arr) {	
 		ArrayList<Integer> modes = new ArrayList<Integer>();
 		
