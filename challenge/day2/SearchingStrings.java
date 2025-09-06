@@ -41,7 +41,7 @@ public class SearchingStrings {
 						foundSearch += str.charAt(j + i);
 					}else {
 						foundSearch = "";
-					}					
+					}			
 				}catch(StringIndexOutOfBoundsException e) {
 					return -1;
 				}
@@ -59,7 +59,7 @@ public class SearchingStrings {
 	public static void main(String[] args) {
 		String myStr = "Hello planet earth, you are a great planet.";
 		
-		System.out.println(indexOf(myStr, "planet", 1));
+		System.out.println(indexOf(myStr, "planet", 0));
 		
 		wordFrequencyCounter(myStr);
 	}
