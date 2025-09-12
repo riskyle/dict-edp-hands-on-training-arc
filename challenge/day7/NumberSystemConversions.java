@@ -105,7 +105,7 @@ public class NumberSystemConversions {
 			}
 		}
 		
-		return base == 10 ? ""+result : retVal;
+		return base == 10 ? Integer.toString(result) : reverse(retVal);
 	}
 	
 	static String binaryToDecimal(String binaryValue) {
@@ -204,7 +204,7 @@ public class NumberSystemConversions {
 		
 		String converted = "";
 		for(int i = 0; i < hexaValue.length(); i++) {
-			converted += value.get(""+hexaValue.charAt(i));
+			converted += value.get(String.valueOf(hexaValue.charAt(i)));
 		}
 		
 		return converted;
@@ -239,7 +239,7 @@ public class NumberSystemConversions {
 	
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		
+
 		System.out.println("***BINARY CONVERSION***");
 		System.out.println("Binary to Decimal ............. 1");
 		System.out.println("Binary to Octal ............... 2");
