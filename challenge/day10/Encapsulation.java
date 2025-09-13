@@ -1,8 +1,8 @@
-package challenge.day8;
+package challenge.day10;
 
 public class Encapsulation {
 
-	/* Day 8 – Encapsulation
+	/* Day 10 – Encapsulation
 	 * Challenge: Create a BankAccount class with private balance and public deposit/withdraw methods.
 	 * Objectives: Data hiding, getters/setters.
 	 * Success Criteria: Balance can’t be directly modified outside the class.

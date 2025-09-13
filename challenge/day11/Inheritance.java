@@ -1,8 +1,8 @@
-package challenge.day9;
+package challenge.day11;
 
 public class Inheritance {
 	
-   /* Day 9 – Inheritance
+   /* Day 11 – Inheritance
 	* Challenge: Base class Person, subclasses Student and Teacher. Each has unique behavior.
 	* Objectives: Inheritance, method overriding.
 	*/

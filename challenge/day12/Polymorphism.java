@@ -1,8 +1,8 @@
-package challenge.day10;
+package challenge.day12;
 
 public class Polymorphism {
 	
-   /* Day 10 – Polymorphism
+   /* Day 12 – Polymorphism
 	* Challenge: Create an Animal class and subclasses (Dog, Cat, etc.), each with Speak().
 	* Objectives: Polymorphism, dynamic dispatch.
 	*/
