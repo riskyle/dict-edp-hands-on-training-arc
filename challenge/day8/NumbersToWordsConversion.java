@@ -18,9 +18,6 @@ public class NumbersToWordsConversion {
 	   convert each group, then append scale words.
 	 */
 	
-	// 1,250,230,321,900
-	// 64748456
-	
 	static HashMap<Integer, String> groupNumber = new HashMap<>();
 	static HashMap<Integer, String> numberWord = new HashMap<>();
 	
@@ -80,8 +77,6 @@ public class NumbersToWordsConversion {
 					int tensRemainder = remainder % TEN;
 				
 					String notFoundDefaultValue = getMapValue(numberWord, tens, "")+TY_TEXT;
-					System.out.println(notFoundDefaultValue);
-					System.out.println(tens +" "+ remainder);
 					retNumValue += String.format(" %s ", getMapValue(numberWord, (tens * TEN), notFoundDefaultValue));
 					retNumValue +=  getMapValue(numberWord, tensRemainder, "");
 				}
