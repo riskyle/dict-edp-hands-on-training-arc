@@ -24,7 +24,6 @@ public class RomanNumeralsToNumbersConversion {
 		int result = 0;
 		
 		for(int i = 0; i < romanLetters.length(); i++) {
-			System.out.println(i);
 			if(i != romanLetters.length() - 1 && romans.get(romanLetters.charAt(i)) < romans.get(romanLetters.charAt(i + 1))) {
 				result -= romans.get(romanLetters.charAt(i));
 			}else {
